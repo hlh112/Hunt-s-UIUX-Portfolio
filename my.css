@@ -115,6 +115,7 @@ p.landing--projLink.disabled {
 
 .landing--project {
     padding: 50px 0px 55px;
+    cursor: pointer;
 }
 
 .landing--head {
