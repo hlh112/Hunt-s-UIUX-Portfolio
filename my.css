@@ -193,6 +193,7 @@ a.project-list-item{
 p.landing--projLink {
     color: #5B87FF;
     font-size: 18px;
+    margin-bottom: 0px;
 }
 
 .landing--project {
