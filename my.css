@@ -26,7 +26,7 @@ img {
     -webkit-user-drag: none;
     width: 100%;
 }
-
+ 
 ::selection {
     background: #5B87FF;
     color: #fff;
@@ -409,6 +409,30 @@ p.landing--projLink {
     background-color: #FABA14;
 }
 
+.theme-leighton-main {
+    background-color: #03254A;
+}
+
+.theme-leighton-issue {
+    background-color: #6B1A1A;
+}
+
+.theme-leighton-inspection {
+    background-color: #B45A3C;
+}
+
+.theme-leighton-diary {
+    background-color: #173529;
+}
+
+.theme-leighton-alert {
+    background-color: #2F1759;
+}
+
+.theme-leighton-practice {
+    background-color: #956C30;
+}
+
 /* -------------- project page bkgrd color -------------- */
 
 .bkgrd-white {
@@ -463,19 +487,6 @@ p.landing--projLink {
     0% { opacity: .2;}
     50% { opacity: .1;}
     100% { opacity: .2;}
-}
-
-.text-white{
-    color: #fff;
-}
-
-.text-whiteOpacity {
-    color: #fff;
-    opacity: .5;
-}
-
-.text-primary{
-    color: #4D4D4D;
 }
 
 /* -------------- project page text content -------------- */
@@ -619,6 +630,10 @@ p.landing--projLink {
     transition: all ease .2s;
 }
 
+.finger-tap--tight {
+    margin-top: 20px;
+}
+
 .finger-tap:hover {
     opacity: .5;
     animation: shift 2s;
@@ -665,6 +680,19 @@ p.landing--projLink {
 
 .extra-margin-bottom {
     margin-bottom: 50px;
+}
+
+.text-white{
+    color: #fff;
+}
+
+.text-whiteOpacity {
+    color: #fff;
+    opacity: .5;
+}
+
+.text-primary{
+    color: #4D4D4D;
 }
 
 /* -------------- specials -------------- */
