@@ -508,7 +508,7 @@ p.landing--projLink {
 .two-col, .three-col {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .two-col .each-col{
