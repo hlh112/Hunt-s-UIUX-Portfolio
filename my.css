@@ -745,6 +745,9 @@ p.landing--projLink {
         transform: initial;
         position: initial;
     }
+    .content-wrapper.content-wrapper{
+        padding: 20px 0px;
+    }
   }
 
   .mobileOverlay {
