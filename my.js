@@ -7,10 +7,11 @@ $(document).ready(function(){
 });
 
 function init() {
-    onloadFadeIn();
+	onloadFadeIn();
 	initCarousel();
-    initChangeImg();
-    scrollToggle();
+    	initChangeImg();
+	scrollToggle();
+	switchImg();
 }
 
 function onloadFadeIn() {
@@ -90,4 +91,47 @@ function skipButtonToggle() {
             $elm.fadeOut();
         }
     } else {}
+}
+
+function switchImg() {
+    $('.switch-img').click(function(){
+        var $this = $(this);
+            next = 1;
+            imgAttr = $this.attr('data-switch-count');
+            nextAttr = (+next + +imgAttr);
+            currentImg = $this.is(":last-child");
+            finger = $('.finger-tap');
+        
+        $this.removeClass('active');
+        console.log(nextAttr);
+
+        if (currentImg == true) {
+            var firstImg = $this.siblings().first();
+                firstImgAttr = firstImg.attr('data-switch-count');
+
+            firstImg.addClass('active');
+
+            finger.each(function(){
+                var $this = $(this);
+                fingerAttr = $this.attr('data-finger-count');
+                if (fingerAttr == firstImgAttr) {
+                    $this.siblings().removeClass('active');
+                    $this.addClass('active');
+                } else {}
+            })
+        } else {
+            $this.next().addClass('active');
+
+            finger.each(function(){
+                var $this = $(this);
+                    fingerAttr = $this.attr('data-finger-count');
+                    console.log(fingerAttr);
+    
+                if (fingerAttr == nextAttr) {
+                    $this.addClass('active');
+                    $this.siblings().removeClass('active');
+                } else {}
+            })
+        }
+    })
 }
