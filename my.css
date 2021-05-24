@@ -647,6 +647,7 @@ p.landing--projLink {
 
 .carousel-img, .switch-img {
     display: none;
+    cursor: pointer;
 }
 
 .carousel-img {
