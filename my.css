@@ -683,6 +683,10 @@ p.landing--projLink {
     margin-bottom: 50px;
 }
 
+.text-primary{
+    color: #4D4D4D;
+}
+
 .text-white{
     color: #fff;
 }
@@ -690,10 +694,6 @@ p.landing--projLink {
 .text-whiteOpacity {
     color: #fff;
     opacity: .5;
-}
-
-.text-primary{
-    color: #4D4D4D;
 }
 
 /* -------------- specials -------------- */
