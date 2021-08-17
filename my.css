@@ -433,6 +433,13 @@ p.landing--projLink {
     background-color: #956C30;
 }
 
+.theme-mantra--primary {
+    background-color: #1C2230;
+}
+
+.theme-mantra--secondary {
+    background-color: #1B1B1B;
+}
 /* -------------- project page bkgrd color -------------- */
 
 .bkgrd-white {
