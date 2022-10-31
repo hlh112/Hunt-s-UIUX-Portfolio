@@ -867,3 +867,7 @@ p.landing--projLink {
   .align-item-center{
     align-items: center;
   }
+
+  .card--disabled {
+    opacity: .4;
+  }
