@@ -871,3 +871,49 @@ p.landing--projLink {
   .card--disabled {
     opacity: .4;
   }
+
+  .demo-launcher-wrapper {
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: 500ms ease 0s;
+  }
+
+  .demo-launcher-wrapper:hover {
+    transform: scale(.98);
+    border: 1px solid #5B87FF;
+    box-shadow: none;
+  }
+
+  .demo-launcher-inner-wrapper {
+    border-radius: 6px; 
+    overflow: hidden;
+  }
+
+  .demo-launcher-image-wrapper {
+    background: #313131;
+    position: relative;
+    width: 100%;
+    height: 220px;
+  }
+
+  .demo-launcher-image-wrapper img {
+    width: 470px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 235px);
+  }
+
+  .demo-launcher-content-wrapper {
+    background: #F8F7FF;
+    padding: 16px;
+  }
+
+  .deco-text {
+    color: #5B87FF;
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 16px;
+}

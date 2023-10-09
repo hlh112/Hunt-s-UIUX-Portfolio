@@ -21,9 +21,9 @@
             <a href="../index.html"><img src="../img/back.svg"></a>
         </div>
 
-        <a id="demo-button" class="demo-button" target='blank' href="https://verdant-caramel-98ee28.netlify.app/">
+        <!-- <a id="demo-button" class="demo-button" target='blank' href="https://verdant-caramel-98ee28.netlify.app/">
             <p>I have recently picked up React.js, <span class="blue">click here</span> for a simplified demo app (mac only) 😁</p>
-        </a>
+        </a> -->
 
         <!--Project info-->
 
@@ -44,11 +44,33 @@
         <div class="project--content">
             <div class="content-wrapper">
                 <div class="projectContent--paragraph">
-                    <p class="projectContent--small-title">/ Product Background</p>
-                    <h1 class="projectContent--primary-title">Hope, an internal claim handling system for the insurtech startup — Hedvig AB</h1>
-                    <p class="projectContent--content p--long">Hope is decent enough back at when the startup was found. With the rapid growth, most of these early decisions aren’t scalable or friendly to use anymore. My role is to ensure that Hope’d be able to deliver a modern user experience</p>
+                    <div class="two-col">
+                        <div class="each-col">
+                            <a class="demo-launcher-wrapper" target='blank' href="https://verdant-caramel-98ee28.netlify.app/">
+                                <div class="demo-launcher-inner-wrapper">
+                                    <div class="demo-launcher-image-wrapper">
+                                        <img src="../img/hope/demo_launcher.png" alt="" />
+                                    </div>
+                                    <div class="demo-launcher-content-wrapper">
+                                        <h1 class="projectContent--secondary-title">Prototype Demo App</h1>
+                                        <p class="projectContent--content--small p--long">I have recently picked up development with react js.<br>
+                                            Feel free to play with the simplified version of the app.<br>
+                                            (preferably chrome on mac)</p>
+                                            <p class="deco-text" target='blank' href="https://verdant-caramel-98ee28.netlify.app/">Click here to launch app &#128073;</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="each-col">
+                            <p class="projectContent--small-title">/ Product Background</p>
+                            <h1 class="projectContent--primary-title">Hope, an internal claim handling system for the insurtech startup — Hedvig AB</h1>
+                            <p class="projectContent--content p--long">Hope is decent enough back at when the startup was found. But like most other systems, these decisions made in the early days aren’t scalable enough to cope with the rapid business growth. 
+                                <br><br>
+                                My role is to ensure that Hope’d be able to deliver a modern user experience.</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="projectContent--paragraph">
+                <!-- <div class="projectContent--paragraph">
                     <p class="projectContent--small-title">/ Design Visions</p>
                     <div class="two-col">
                         <div class="each-col">
@@ -69,7 +91,7 @@
                             <p class="projectContent--content">Response time is the utmost metric that sets the brand's reputation. Hope needs to be powerful enough to aid users in accomplishing tasks with less move arounds, both virtually and physically</p>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
 
@@ -87,33 +109,15 @@
                             <a class="feature-card" href="hope/load_balance_basic.html">
                                 <p class="projectContent--small-title">/ 01</p>
                                 <h1 class="projectContent--secondary-title">Load Balancing</h1>
-                                <p class="projectContent--content--small p--long">A balancer that automates distribution of incoming inquiries to the right hands. It sets ground for massive scalability of any lateron features</p>
+                                <p class="projectContent--content--small p--long">A balancer that automates distribution of incoming inquiries to the right hands, setting the ground for massive business scalability.</p>
                             </a>
                         </div>
-                        <div class="each-col">
-                            <a class="feature-card card--disabled" href="hope/claim_flow.html">
-                                <p class="projectContent--small-title">/ 02</p>
-                                <h1 class="projectContent--secondary-title">Claim Handling Workflow (Coming Soon)</h1>
-                                <p class="projectContent--content--small p--long">The startup has its own inhouse practice in handling claims. A workflow is needed to reflect that custom logic and to assist the claim process (both speed and accuracy)</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="projectContent--paragraph--lessSapce">
-                    <div class="two-col">
-                        <div class="each-col">
-                            <a class="feature-card card--disabled" href="#">
-                                <p class="projectContent--small-title">/ 03</p>
-                                <h1 class="projectContent--secondary-title">Payment Flow (Coming Soon)</h1>
-                                <p class="projectContent--content--small p--long">Payments, invoices and reporting can be a mess. A new payment flow is needed to meet needs from different functional teams</p>
-                            </a>
-                        </div>
                         <div class="each-col">
                             <a class="feature-card" href="hope/ui_refactor.html">
-                                <p class="projectContent--small-title">/ 04</p>
-                                <h1 class="projectContent--secondary-title">UI Refactor</h1>
-                                <p class="projectContent--content--small p--long">With increasing claim complexity and velocity, a more efficieny UI is needed to cope with the increasing challenges</p>
+                                <p class="projectContent--small-title">/ 02</p>
+                                <h1 class="projectContent--secondary-title">UI Refactor & Keyboard Shortcut</h1>
+                                <p class="projectContent--content--small p--long">With increasing claim complexity and velocity, a more efficieny UI is needed to cope with the increasing challenges.</p>
                             </a>
                         </div>
                     </div>
@@ -121,17 +125,23 @@
 
                 <div class="projectContent--paragraph--lessSapce">
                     <div class="two-col">
+
                         <div class="each-col">
-                            <a class="feature-card card--disabled" href="#">
-                                <p class="projectContent--small-title">/ 05</p>
-                                <h1 class="projectContent--secondary-title">Template Messages (Coming Soon)</h1>
+                            <a class="feature-card" href="hope/template_msg.html">
+                                <p class="projectContent--small-title">/ 03</p>
+                                <h1 class="projectContent--secondary-title">Template Messages</h1>
                                 <p class="projectContent--content--small p--long">A small feature designed to cope with everyday repeating inquiries from customers. And it is insanely slick!</p>
                             </a>
                         </div>
-
+                        <div class="each-col">
+                            <a class="feature-card card--disabled" href="#">
+                                <p class="projectContent--small-title">/ 04</p>
+                                <h1 class="projectContent--secondary-title">Claim Handling Workflow (Coming Soon)</h1>
+                                <p class="projectContent--content--small p--long">An automated workflow to cope with the inhouse custom business logic and to assist the claim process efficiency and accuracy.</p>
+                            </a>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
